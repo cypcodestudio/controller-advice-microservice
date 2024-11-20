@@ -15,11 +15,13 @@ public class HomeController {
 
 	@GetMapping
 	public ResponseEntity<?> home(){
+//		todo add custom logic
 		throw new HomeException("Home failed");
 	}
 	
 	@PostMapping
 	public ResponseEntity<?> homePost(){
+//		add your custom logic
 		throw new CustomException("Home Post failed");
 	}
 }

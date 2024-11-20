@@ -16,11 +16,13 @@ public class SubscribeController {
 
 	@GetMapping
 	public ResponseEntity<?> subscribe(){
+//		todo add your custom logic
 		throw new SubscribeException("Subscribe failed");
 	}
 	
 	@PostMapping
 	public ResponseEntity<?> subscribePost(){
-		throw new CustomException("Subscrine Post failed");
+//		todo add your custom logic
+		throw new CustomException("Subscribe Post failed");
 	}
 }
